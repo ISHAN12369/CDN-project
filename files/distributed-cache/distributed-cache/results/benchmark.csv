@@ -1,0 +1,3 @@
+label,total_requests,hits,misses,avg_latency_ms,avg_hit_latency_ms,avg_miss_latency_ms,throughput_rps
+origin_only_baseline,20000,0,20000,51.2953,0,51.2953,155.958
+distributed_cache,20000,17431,2569,6.57483,0.0012917,51.1771,1081.18

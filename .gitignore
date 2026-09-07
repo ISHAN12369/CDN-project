@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Binaries & Compiled Files
+*.exe
+*.o
+*.obj
+*.dll
+*.so
+*.dylib
+*.pdb
+*.ilk
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment and IDE files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Obsidian workspace caches (keep notes, ignore local workspace state)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
