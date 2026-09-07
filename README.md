@@ -3,6 +3,7 @@
 [![C++17](https://img.shields.io/badge/C%2B%2B-17-00599C?logo=c%2B%2B)](https://en.cppreference.com/w/cpp/17)
 [![React](https://img.shields.io/badge/React-19.2-61DAFB?logo=react)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Vite-8.2-646CFF?logo=vite)](https://vitejs.dev/)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-GitHub_Pages-2ea44f?logo=github)](https://ishan12369.github.io/CDN-project/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 An end-to-end, multi-threaded **Content Delivery Network (CDN) & Distributed Caching System** modeled after real-world production architectures (e.g., Cloudflare, Akamai, Memcached, Redis Cluster). 
@@ -191,16 +192,19 @@ CDN-project/
 
 ---
 
-### Option A: One-Click Windows Launch
+### Option A: One-Click Windows Launcher (`run.bat`)
 
-Simply double-click or run:
+Simply double-click or run from command prompt:
 ```bat
-start_all.bat
+run.bat
 ```
-This batch script will:
-1. Compile `files/main.cpp` into `cdn_benchmark.exe` using `g++ -std=c++17 -O2 -pthread`.
-2. Run the 20,000-request benchmark in a console window.
-3. Launch the React Vite development server at `http://localhost:5173/`.
+This automated script will:
+1. Detect your C++17 compiler (`g++` in PATH or MSYS2/MinGW).
+2. Compile and launch the 20,000-request benchmark engine.
+3. Automatically verify/install Node dependencies and start the Vite dev server.
+4. Auto-launch your default web browser to `http://localhost:5173/`.
+
+*(Alternatively, you can also run `start_all.bat`)*
 
 ---
 
