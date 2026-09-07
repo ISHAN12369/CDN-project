@@ -12,8 +12,16 @@ The system pairs a **high-throughput C++17 core engine** (LRU caching, consisten
 
 ---
 
+### 🔗 Live Interactive Demo
+👉 **[https://ishan12369.github.io/CDN-project/](https://ishan12369.github.io/CDN-project/)**
+
+> **Experience the live dashboard**: Test interactive request lookups (RAM hits vs. origin fetches), inspect real-time Without CDN vs. With CDN comparison graphs, and explore cluster scaling topologies in your browser.
+
+---
+
 ## 📑 Table of Contents
 
+- [🔗 Live Interactive Demo](#-live-interactive-demo)
 - [Overview & Key Metrics](#-overview--key-metrics)
 - [System Architecture](#-system-architecture)
 - [Empirical Benchmark Results](#-empirical-benchmark-results)
